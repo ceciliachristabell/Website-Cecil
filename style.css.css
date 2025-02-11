@@ -1,0 +1,82 @@
+body {
+    background-color: violet;
+}
+
+header {
+    border: 1px solid #CDC1FF;
+    padding: 30px; 
+    text-align: center;
+}
+
+header h1 {
+    color: #c0b2f5;
+}
+
+header p {
+    font-style: italic;
+}
+
+header img {
+    width: 30%;
+    border: 2px solid #FFCCEA;
+    border-radius: 50%;
+}
+
+header img:hover {
+    transform: scale(.8);
+    transition: all .3s ease-in out;
+    box-shadow: 4px 4px 8px #BFECFF;
+}
+
+header button {
+    display: block;
+    margin : 3px auto;
+    padding: 10px 30px;
+    background-color: lightpink;
+    color: azure;
+    border-radius: 15px;
+    border: 10x white;
+
+}
+header button : :hover {
+ background-color: rgb(255, 252 , 252);
+ color:blue ;
+}
+
+#about {
+    width: 95%;
+    margin: 40px auto;
+    display: flex;
+}
+.left-about {
+    width: 70%;
+}
+.left-about img {
+    width: 100%;
+    border-radius: 50px 0;
+    margin-left: 100px;
+    box-shadow: 3px 3px 12px gray;
+}
+.right-about {
+    width: 50%;
+    padding: 40px;
+}
+.right-about h2 {
+    color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
